@@ -1,0 +1,28 @@
+
+Sample code that reads/writes pgm images and that draws lines on the images is provided.
+
+image.* : Image class (2-D array of integers, along with size, number of colors)
+                      (For our purposes the number of colors is 256)
+
+image_demo.cc : Sample main() function for testing.
+
+----------------------
+To compile in Linux:
+----------
+ 
+   make all
+
+To run:
+---------
+
+./image_demo objects.pgm output.pgm
+
+This will open image objects.pgm, will draw a line on the image, and will save resulting image to file output.pgm
+
+-----------
+
+All tasks were completed, as well as computing the endpoints of the lines, 
+
+Threshold value for h2 is around 50, and for h4 around 200-225.
+
+Problems 1 and 2 are in pdf
