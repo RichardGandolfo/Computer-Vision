@@ -1,6 +1,5 @@
 # Computer Vision Projects
 
-Three class projects for Computer Vision Course at Hunter College.
 
 ## Object Recognition
 Use Sequential Labeling Algorithm to detect 2d objects in greyscale images
